@@ -1,18 +1,8 @@
 package ru.elvira.calculator.service;
 
 public class ResultWriterService {
-    public static void printNum(int number1, int number2, int result, String multiplication) {
-        System.out.println(multiplication
-                + " "
-                + number1
-                + " "
-                + "и"
-                + " "
-                + number2
-                + " "
-                + "равно"
-                + " "
-                + result);
+    public static void printNum(int number1, int number2, int result, String operation) {
+        System.out.println(operation + " " + number1 + " " + "и" + " " + number2 + " " + "равно" + " " + result);
     }
 }
 

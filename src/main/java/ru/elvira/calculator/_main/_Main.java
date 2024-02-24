@@ -5,14 +5,14 @@ import ru.elvira.calculator.util.Calculator;
 
 public class _Main {
     public static void main(String[] args) {
-        int a = 99;
-        int b = 2;
-        int c = Calculator.addNum(a,b);//сумма
-        ResultWriterService.printNum(a, b, c, "Сумма");
-        int d = Calculator.subtractNum(a,b);//разница
-        ResultWriterService.printNum(a, b, d, "Разница");
-        int e = Calculator.productNum(a,b);//разница
-        ResultWriterService.printNum(a, b, e, "Произведение");
+        int num1 = 99;
+        int num2 = 2;
+        int result1 = Calculator.addNum(num1, num2);//сумма
+        ResultWriterService.printNum(num1, num2, result1, "Сумма");
+        int result2 = Calculator.subtractNum(num1, num2);//разница
+        ResultWriterService.printNum(num1, num2, result2, "Разница");
+        int result3 = Calculator.productNum(num1, num2);//произведение
+        ResultWriterService.printNum(num1, num2, result3, "Произведение");
     }
 }
 

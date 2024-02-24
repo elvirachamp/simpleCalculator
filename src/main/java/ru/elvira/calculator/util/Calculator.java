@@ -1,14 +1,16 @@
 package ru.elvira.calculator.util;
 
 public class Calculator {
-    public static int addNum (int a, int b) {
-        return a+b;
+    public static int addNum(int num1, int num2) {
+        return num1 + num2;
     }
-    public static int subtractNum (int c, int d) {
-        return c-d;
+
+    public static int subtractNum(int num1, int num2) {
+        return num1 - num2;
     }
-    public static int productNum (int e, int f) {
-        return e*f;
+
+    public static int productNum(int num1, int num2) {
+        return num1 * num2;
     }
 }
 
